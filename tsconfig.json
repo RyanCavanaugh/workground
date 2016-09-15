@@ -1,0 +1,17 @@
+{
+	"files": [
+		"src/workground.ts",
+		"node_modules/monaco-editor/monaco.d.ts",
+        "node_modules/typescript/lib/typescriptServices.d.ts"
+	],
+    "compilerOptions": {
+    	"outDir": "bin",
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

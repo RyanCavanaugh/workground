@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TypeScript Workground</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link href="style.css" rel="stylesheet" />
+	<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../../node_modules/react/dist/react.min.js"></script>
+	<script src="../../node_modules/react-dom/dist/react-dom.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="left-pane">
+			<div id="editor"></div>
+			<div id="error-list"></div>
+		</div>
+
+		<div id="right-pane">
+			<details open>
+				<summary>Compiler Settings</summary>
+				<label><input type="checkbox">No Implicit Any</label>
+				<label><input type="checkbox">Strict Null Checks</label>
+				<label><input type="checkbox">JSX</label>
+				<label><input type="checkbox">Target ES6</label>
+			</details>
+
+			<pre id="output"></pre>
+		</div>
+	</div>
+ 
+	<script src="../../node_modules/monaco-editor/min/vs/loader.js"></script>
+	<script src="../../node_modules/typescript/lib/typescriptServices.js"></script>
+	<script src="../bin/workground.js"></script>
+</body>
+</html>

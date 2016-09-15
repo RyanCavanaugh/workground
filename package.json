@@ -1,0 +1,32 @@
+{
+  "name": "workground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanCavanaugh/workground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanCavanaugh/workground/issues"
+  },
+  "homepage": "https://github.com/RyanCavanaugh/workground#readme",
+  "dependencies": {
+    "@types/jquery": "^1.10.28",
+    "@types/react": "^0.14.29",
+    "@types/react-dom": "^0.14.14",
+    "jquery": "^3.1.0",
+    "monaco-editor": "^0.5.3",
+    "monaco-typescript": "^0.5.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "text": "github:requirejs/text",
+    "typescript": "^2.1.0-dev.20160805"
+  }
+}
